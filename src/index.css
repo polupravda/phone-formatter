@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+input {
+  font-size: 22px;
+  display: block;
+  width: 200px;
+  height: 100%;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  color: white;
+  border-radius: 0;
+  transition: border-color .25s ease, box-shadow .25s ease;
+}
+
+input:focus {
+  outline:0;
+  border-color: #1ab188;
+}
+
+.rawContainer {
+  height: 100px;
+}
